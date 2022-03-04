@@ -1,0 +1,50 @@
+{
+  "name": "CommissionFee",
+  "description": "CommissionFee By Hamed Titan",
+  "version": "0.0.1",
+  "keywords": [
+    "es6",
+    "nodejs",
+    "node",
+    "javascript"
+  ],
+  "author": "Hamed Titan",
+  "website": "https://titan7web.com",
+  "gitHub": "https://github.com/titan7web",
+  "linkedin": "https://linkedin.com/hamedtitan",
+  "main": "system.js",
+  "scripts": {
+    "start": "node system.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "jest": "^27.5.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": "airbnb",
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "linebreak-style": 0
+    }
+  },
+  "dependencies": {
+    "@jest/globals": "latest"
+  }
+}
